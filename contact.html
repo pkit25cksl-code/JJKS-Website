@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | JJKS</title>
+  <meta name="description" content="Tell JJKS about your project. The first consultation is free and we reply within 2 working days.">
+  <meta name="theme-color" content="#191919">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JJKS">
+  <meta property="og:title" content="Contact | JJKS">
+  <meta property="og:description" content="Tell JJKS about your project. The first consultation is free and we reply within 2 working days.">
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/jjks/assets/img/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/open-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">
+      <span class="logo__tile" aria-hidden="true">J</span><span class="logo__word">JJKS</span><span class="sr-only"> home</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li class="nav-cta"><a class="btn btn--light" href="contact.html">Book a free consultation</a></li></ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Contact</span>
+    <h1>Let's talk about your project</h1>
+    <p class="lead">Tell us a little about your idea. The first consultation is free, and we reply within 2 working days.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact__grid">
+    <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="post" novalidate data-validate
+          data-not-ready="Thanks for your message! Our online form is being connected. Please email us at info@jjks.com and we'll reply within 2 working days."
+          data-success="Thank you! Your enquiry has been sent. We'll reply within 2 working days."
+          data-error="Sorry, something went wrong sending your enquiry. Please try again or email info@jjks.com.">
+      <h2 class="sr-only">Enquiry form</h2>
+      <p class="muted" style="margin:0">All fields are required.</p>
+      <div class="field">
+        <label for="name">Name</label>
+        <input class="input" id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" data-required aria-describedby="name-err">
+        <p class="error" id="name-err">Enter your name.</p>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input class="input" id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" data-required aria-describedby="email-err">
+        <p class="error" id="email-err">Enter an email address in the format name@example.com.</p>
+      </div>
+      <div class="field">
+        <label for="organisation">Organisation</label>
+        <input class="input" id="organisation" name="organisation" type="text" autocomplete="organization" placeholder="Business, charity or community group" data-required aria-describedby="org-err">
+        <p class="error" id="org-err">Enter the name of your organisation.</p>
+      </div>
+      <div class="field">
+        <label for="idea">Tell us about your idea</label>
+        <textarea class="input" id="idea" name="message" placeholder="What would you like to build, and who is it for?" data-required aria-describedby="idea-err"></textarea>
+        <p class="error" id="idea-err">Tell us a little about your idea.</p>
+      </div>
+      <div class="hp" aria-hidden="true"><label for="gotcha">Leave this field empty</label><input id="gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+      <div>
+        <div class="check">
+          <input id="consent" name="consent" type="checkbox" value="yes" data-required aria-describedby="consent-err">
+          <label for="consent">I agree to JJKS storing my details so they can reply to this enquiry, as set out in the <a href="privacy.html">Privacy policy</a>.</label>
+        </div>
+        <p class="error" id="consent-err" style="margin-top:8px">Tick the box so we can reply to you.</p>
+      </div>
+      <div><button class="btn btn--primary" type="submit">Send enquiry</button></div>
+      <p class="form-status" role="status" tabindex="-1"></p>
+      <p class="muted" style="margin:0;font-size:.9375rem">We collect only what we need to reply, and never share it.</p>
+    </form>
+
+    <aside aria-labelledby="next-h">
+      <div class="detail-block">
+        <h2 id="next-h" style="font-size:1.375rem;margin-bottom:16px">What happens next</h2>
+        <ol style="margin:0;padding-left:1.25rem;color:var(--text-grey)">
+          <li>We read your message and reply within 2 working days.</li>
+          <li>We arrange a free consultation by video call or in person.</li>
+          <li>If we're a good fit, you get a written, fixed-scope quote.</li>
+        </ol>
+      </div>
+      <dl class="contact-list">
+        <div><dt>Email</dt><dd><a href="mailto:info@jjks.com">info@jjks.com</a></dd></div>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--off" id="faqs" aria-labelledby="faq-h">
+  <div class="container">
+    <div class="section-head"><h2 id="faq-h">Frequently asked questions</h2></div>
+    <div class="faq" style="max-width:860px">
+      <details><summary>How much does a project cost?</summary><p>Every project gets a transparent, fixed-scope quote after a free consultation, so you know the cost before anything starts. Introductory rates or pilot work may be available in exchange for a testimonial.</p></details>
+      <details><summary>How long does a project take?</summary><p>It depends on the size, but we work in short sprints and you'll see working software early. We'll give you a realistic timeline in your quote, and we'll tell you honestly if something won't fit.</p></details>
+      <details><summary>How involved do I need to be?</summary><p>A short review at the end of each sprint is usually enough. Your feedback shapes the next sprint, so your time makes a real difference to the result.</p></details>
+      <details><summary>Can I maintain the software myself afterwards?</summary><p>Yes. Every project ends with a handover and plain-English documentation, so you aren't dependent on us.</p></details>
+      <details><summary>What happens to my details?</summary><p>We collect only what we need to reply and never share or sell it. See our <a href="privacy.html">Privacy policy</a> for how long we keep it and your rights.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__company">
+        <a class="logo" href="index.html"><span class="logo__tile" aria-hidden="true">J</span><span class="logo__word">JJKS</span><span class="sr-only"> home</span></a>
+        <p>Software that lights the way. Custom web and desktop applications for small businesses and community organisations.</p>
+        <ul class="footer__links" aria-label="Contact and social">
+          <li><a href="https://www.linkedin.com/company/YOUR-PAGE" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/YOUR-ORG" rel="noopener">GitHub</a></li>
+          <li><a href="mailto:info@jjks.com">Email</a></li>
+        </ul>
+      </div>
+      <form class="newsletter" action="https://buttondown.com/api/emails/embed-subscribe/YOUR_USERNAME" method="post" novalidate data-validate
+            data-not-ready="Thanks! Newsletter sign-up opens soon. In the meantime, follow us on LinkedIn."
+            data-success="You're subscribed. Check your inbox to confirm."
+            data-error="Sorry, that didn't go through. Please try again or email us.">
+        <h2>Newsletter sign-up</h2>
+        <p>One useful tip and one project story each month.</p>
+        <div class="newsletter__row">
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input class="input" id="nl-email" name="email" type="email" autocomplete="email" placeholder="Email address" data-required aria-describedby="nl-email-err nl-note">
+          <button class="btn btn--light" type="submit">Join</button>
+        </div>
+        <p class="error" id="nl-email-err">Enter a valid email address.</p>
+        <p class="note" id="nl-note">We only use your email for this newsletter. Unsubscribe any time. See our <a href="privacy.html">Privacy policy</a>.</p>
+        <p class="form-status" role="status" tabindex="-1"></p>
+      </form>
+    </div>
+    <div class="footer__bottom">
+      <ul class="footer__links footer__links--legal" aria-label="Legal">
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="cookies.html">Cookie notice</a></li>
+        <li><a href="accessibility.html">Accessibility statement</a></li>
+      </ul>
+      <p>© <span data-year>2026</span> JJKS · A student-led team at the University of Sunderland</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
